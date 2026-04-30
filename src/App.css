@@ -1,0 +1,18 @@
+body {
+  background: #ffffff; 
+}
+
+.page-wrapper {
+  margin: 16px;                 
+  border: 1px solid #e3e7df;   
+  border-radius: 20px;          
+   background-color: #F5FAF6;   
+  overflow: hidden;  
+  font-family: var(--font-inter);
+  --font-inter: "Inter", "Inter Fallback";
+  --font-dm-sans: "DM Sans", "DM Sans Fallback";       
+}
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}

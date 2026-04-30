@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green-900: #1e3a0e;
+  --green-800: #2e5218;
+  --green-700: #f2f3f1;
+  --cream:     #f8f9f8;
+  --cream-2:   #e8e2d6;
+  --cream-3:   #ddd7c8;
+  --text-dark: #1a1a1a;
+  --text-mid:  #4a4a4a;
+  --text-muted:#888;
+  --white:     #fff;
+  
+  --ring: #bac0bc; 
+
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
