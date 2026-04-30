@@ -1,5 +1,5 @@
 import './Hero.css'
-import Phone from './Phone'
+import Phone from './phone'
 
 
 import img1 from '../assets/img1.webp'

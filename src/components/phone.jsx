@@ -1,4 +1,4 @@
-import './Phone.css'
+import './phone.css'
 import { useEffect, useRef, useState } from 'react'
 
 import product6 from '../assets/product-6.webp'
