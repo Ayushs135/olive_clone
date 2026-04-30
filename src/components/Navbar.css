@@ -1,0 +1,163 @@
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--green-800);
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: -0.5px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 50px;   
+  width: auto;    
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  flex: 1;
+  .nav-links a {
+  font-size: 14px;
+  color: #6b7280;
+}
+}
+
+.nav-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 11px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  text-decoration: none;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: background 0.16s;
+}
+
+.nav-links a:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.caret {
+  font-size: 0.55rem;
+  opacity: 0.5;
+  margin-top: 1px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.btn-sign {
+  padding: 8px 14px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  background: none;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.16s;
+}
+
+.btn-sign:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.btn-get {
+  background: #243d1f;
+  padding: 10px 22px;
+  font-size: 14px;
+  border-radius: 999px;
+  
+  color: var(--white);
+  background: var(--green-800);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: -0.1px;
+  transition: background 0.18s, transform 0.14s;
+}
+
+.btn-get:hover {
+  background: var(--green-900);
+  transform: translateY(-1px);
+}
+
+
+@media (max-width: 1202px) {
+  .nav {
+    padding: 0 20px;
+  }
+.nav-links {
+    display: none;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+ 
+}
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  margin-left: auto; 
+}
+
+.menu-icon span {
+  width: 22px;
+  height: 2px;
+  background: #1a1a1a;
+  border-radius: 2px;
+}
+@media (max-width: 1202px) {
+  .nav-links,
+  .nav-actions {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex; 
+  }
+}
+
+@media (max-width: 708px) {
+  .nav {
+    padding: 0 16px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+}
+
+
