@@ -28,7 +28,7 @@ function scoreColor(s) {
   if (s >= 50) return '#f39c12'
   return '#e74c3c'
 }
-
+ 
 export default function PhoneMockup() {
   const [active, setActive] = useState(0)
   const total = slides.length
